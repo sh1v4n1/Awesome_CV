@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $("#get").click(function(){
+    $("#two").toggleClass("hid");
+	$("#get").toggleClass("hid");
+  });
+});
+$(document).ready(function(){
+  $("#two").click(function(){
+    $("#two").toggleClass("hid");
+	$("#get").toggleClass("hid");
+  });
+});
